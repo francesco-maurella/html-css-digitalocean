@@ -1,27 +1,43 @@
 body {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* Backgrounds */
 .bg-white {
   background-color: #FFF;
-  color: #031C4E;
 }
 
 .bg-lightbl {
   background-color: #F3F5F9;
 }
 
+.bg-lightbl, .bg-white {
+  color: #5C6A88;
+}
+
+.bg-lightbl h2, .bg-white h2{
+  color: #031C4E !important;
+}
+
 .bg-blue{
   background: linear-gradient(#0044F0,#00209B) 50% no-repeat;
-  color: #FFF;
 }
 
 .bg-darkbl {
   background-color: #031C4E;
 }
+
+.bg-blue, .bg-darkbl{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.bg-blue h1, .bg-blue h2, .bg-blue h3
+.bg-darkbl h1, .bg-darkbl h2, .bg-darkbl h3 {
+  color: #FFF;
+}
+
 /* / Backgrounds */
 
 /* Navbar Menù */
@@ -71,7 +87,6 @@ body {
 }
 
 /* Jumbotron */
-
 #jumbotron {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -86,7 +101,7 @@ body {
 }
 
 #jumbotron h2, h3 {
-  font-size: 25px;
+  font-size: 1.4em;
   font-weight: bold;
 }
 
@@ -119,14 +134,23 @@ body {
     font-size: 2.5em;
   }
 }
+/* / Jumbotron */
 
-
-
-
-
+/* Partners */
 #partners {
-  min-height: 280px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 0.8em;
 }
+
+#partners>.container>* {
+  margin-bottom: 10px;
+}
+/* / Partners */
+
+
+
+
 
 #deploy {
   min-height: 700px;
