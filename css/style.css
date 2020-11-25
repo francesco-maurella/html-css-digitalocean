@@ -1,0 +1,58 @@
+/* Backgrounds */
+.bg-white {
+  background-color: #FFF;
+}
+
+.bg-lightbl {
+  background-color: #F3F5F9;
+}
+
+.bg-blue{
+  background: linear-gradient(#0044F0,#00209B) 50% no-repeat;
+}
+
+.bg-darkbl {
+  background-color: #031C4E;
+}
+/* / Backgrounds */
+
+/* ! Provvisori ! */
+#navmenu {
+  min-height: 70px;
+}
+
+#jumbotron {
+  min-height: 500px;
+}
+
+#partners {
+  min-height: 280px;
+}
+
+#deploy {
+  min-height: 700px;
+}
+#designed {
+  min-height: 780px;
+}
+
+#features {
+  min-height: 440px;
+}
+
+#regions {
+  min-height: 420px;
+}
+
+#teams {
+  min-height: 720px;
+}
+
+#start {
+  min-height: 260px;
+}
+
+#footer {
+  min-height: 530px;
+}
+/* / ! Provvisori ! */
