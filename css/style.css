@@ -16,10 +16,34 @@
 }
 /* / Backgrounds */
 
-/* ! Provvisori ! */
-#navmenu {
-  min-height: 70px;
+.page-container {
+  margin: 0 auto;
+  max-width: 1000px;
 }
+
+
+.nav-bar {
+  width: 25px;
+}
+
+.nav-bar>* {
+  background-color: #2787FD;
+  height: 3px;
+  margin-bottom: 5px;
+}
+
+#navmenu>* {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 25px;
+  margin: 0;
+}
+#navmenu img {
+  height: 25px;
+}
+
+
+/* ! Provvisori ! */
 
 #jumbotron {
   min-height: 500px;
