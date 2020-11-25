@@ -16,31 +16,49 @@
 }
 /* / Backgrounds */
 
-.page-container {
-  margin: 0 auto;
-  max-width: 1000px;
+#navmenu {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 35px;
 }
 
-
-.nav-bar {
-  width: 25px;
+#navmenu img {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 35px;
 }
 
-.nav-bar>* {
-  background-color: #2787FD;
-  height: 3px;
-  margin-bottom: 5px;
-}
-
-#navmenu>* {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  line-height: 25px;
+#navmenu ul {
   margin: 0;
 }
-#navmenu img {
-  height: 25px;
+
+#navmenu .btn{
+  border-color: #006AFF;
+  color: #006AFF;
 }
+
+#navmenu .btn:hover{
+  background-color: #006AFF;
+  color: #FFF;
+}
+
+#navmenu a{
+  color: #031C4E;
+  font-weight: 500;
+}
+
+#navmenu .hamb-m {
+  width: 30px;
+  height: 35px;
+}
+
+#navmenu .hamb-m>* {
+  background-color: #2787FD;
+  height: 4px;
+  margin-bottom: 7px;
+}
+
+
 
 
 /* ! Provvisori ! */
