@@ -4,6 +4,10 @@ body {
   font-weight: 400;
 }
 
+h1, h2, h3 {
+  font-weight: bold;
+}
+
 .padd-vrt-60 {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -108,12 +112,10 @@ body {
 
 #jumbotron h1 {
   font-size: 3.5em;
-  font-weight: bold;
 }
 
 #jumbotron h2, h3 {
   font-size: 1.4em;
-  font-weight: bold;
 }
 
 #jumbotron form>* {
@@ -151,8 +153,17 @@ body {
 /* / Partners */
 
 /* Deploy */
+#deploy a {
+  color: #75809A;
+}
+
 #deploy .tab-dep {
   font-size: 0.9em;
+}
+
+#deploy .tab-dep ul {
+  border-left: 1px solid #ccc;
+  padding-left: 30px;
 }
 /* / Deploy */
 
