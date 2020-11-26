@@ -182,14 +182,27 @@ h1, h2, h3 {
 
 
 
-#designed .glyphicon {
+/* Designed */
+#designed .hidden-xs {
+  font-size: 1.6em;
+  text-decoration: none;
   vertical-align: middle;
-
 }
 
-.fa-stack {
+@media screen and (min-width: 768px) {
+  #designed .img-responsive {
+    display: inline-block;
+    margin: 0 10px;
+    max-width: 80%;
+  }
+}
+/* / Designed */
 
+
+.fa-stack {
   font-size: 0.9em;
+  padding: 0;
+  margin: 0;
 }
 
 
