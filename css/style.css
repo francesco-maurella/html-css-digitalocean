@@ -37,7 +37,7 @@ h1, h2, h3 {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.bg-blue h1, .bg-blue h2,
+.bg-blue h1, .bg-blue h2, .bg-blue h3,
 .bg-darkbl h1, .bg-darkbl h2 {
   color: #FFF;
 }
@@ -48,18 +48,19 @@ h1, h2, h3 {
 /* / COLORS (Background & Text) */
 
 /* SPACES (Margin & Padding) */
-.padd-vrt-25 {
-  padding-top: 25px;
-  padding-bottom: 25px;
+.dv-hght-60 {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.mrg-vrt-chld-40>* {
+.dv-hght-60>* {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-.mrgbt-chld-15>* {
-  margin-bottom: 15px;
+.nstd-cnt>* {
+  margin-bottom: 12px;
+  font-size: 0.9em
 }
 /* / SPACES (Margin & Padding) */
 
@@ -150,7 +151,7 @@ h1, h2, h3 {
   color: #75809A;
 }
 
-#deploy .row.nested-1st ul {
+#deploy ul.nstd-cont {
   border-left: 1px solid #ccc;
   padding-left: 30px;
 }
@@ -166,19 +167,40 @@ h1, h2, h3 {
 }
 /* / Designed */
 
+/* Regions */
+#regions ul {
+  font-weight: bold;
+}
+#regions ul:not(:last-child) {
+  border-bottom: 1px solid #FFF;
+}
+/* / Regions */
 
-.nested-1st {
-  font-size: 0.9em
+/* Teams */
+#teams .teams-table>a {
+  width: 20px;
+}
+#teams .teams-table>div {
+  width: calc(100% - 42px);
+}
+#teams .teams-table>div>* {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* / Teams */
+
+
+.inl-blc {
+  display: inline-block;
 }
 
-.nested-2st {
-  font-size: 0.8em
+.middle {
+  vertical-align: middle;
 }
 
 .fa-stack {
-  font-size: 0.9em;
-  padding: 0;
-  margin: 0;
+  font-size: 0.7em;
+  margin: 0 -8px;
 }
 
 .fa-stack .fa.fa-circle {
@@ -186,25 +208,14 @@ h1, h2, h3 {
  }
 
 .fa-stack:hover  .fa.fa-circle {
-   opacity:1.0;
+   opacity:0.8;
  }
 
 
 #deploy, #features, #regions {
-  margin-bottom: -15px;
+  margin-bottom: -12px;
 }
 
-#regions ul {
-  font-weight: bold;
-}
-#regions ul>li {
-  padding-bottom: 10px;
-  border-bottom: 1px solid #FFF;
-}
-
-#teams {
-  min-height: 720px;
-}
 
 #start {
   min-height: 260px;
@@ -227,11 +238,15 @@ h1, h2, h3 {
     margin: 0 10px;
     max-width: 80%;
   }
+
+  #deploy div.nstd-cnt>* {
+    min-height: 240px;
+  }
 }
 
 @media screen and (min-width: 992px) {
-  #deploy .row.nested-1st>* {
-    min-height: 160px;
+  #deploy div.nstd-cnt>* {
+    min-height: 170px;
   }
 }
 /* / MEDIAQUERY */
