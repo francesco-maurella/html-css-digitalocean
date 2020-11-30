@@ -22,14 +22,6 @@ h1, h2, h3 {
   background-color: #F3F5F9;
 }
 
-.bg-lightbl, .bg-white {
-  color: #5C6A88;
-}
-
-.bg-lightbl h2, .bg-lightbl h3, .bg-white h2, .bg-white h3{
-  color: #031C4E;
-}
-
 .bg-blue{
   background: linear-gradient(#0044F0,#00209B) 50% no-repeat;
 }
@@ -38,21 +30,24 @@ h1, h2, h3 {
   background-color: #031C4E;
 }
 
-.bg-blue, .bg-darkbl{
+.txt-drk {
+  color: #5C6A88;
+}
+
+.txt-drk h1, .txt-drk h2, .txt-drk h3 {
+  color: #031C4E;
+}
+
+.txt-lght {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.bg-blue h1, .bg-blue h2, .bg-blue h3,
-.bg-darkbl h1, .bg-darkbl h2, .bg-darkbl h3 {
+.txt-lght h1, .txt-lght h2, .txt-lght h3 {
   color: #FFF;
 }
 
-.white {
-  color: #FFF;
-}
-
-.lightbl {
-  color: #006AFF !important;
+.txt-lghtbl {
+  color: #006AFF;
 }
 /* / COLORS (Background & Text) */
 
@@ -63,7 +58,6 @@ h1, h2, h3 {
 }
 
 .dv-hght-60>*:not(:last-child){
-
   margin-bottom: 40px;
 }
 
@@ -82,6 +76,10 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
+.btn:hover {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
 .slide-tb .glyphicon {
   font-size: 1.6em;
   padding: 0 8px;
@@ -93,7 +91,6 @@ h1, h2, h3 {
 }
 
 .slide-tb>div {
-  width: 100%;
   vertical-align: middle;
 }
 
@@ -129,12 +126,13 @@ h1, h2, h3 {
 #navmenu .btn{
   border-color: #006AFF;
   font-size: 13px;
-  margin-top: -3px;
+  margin-top: -4px;
+  color: #006AFF;
 }
 
 #navmenu .btn:hover{
   background-color: #006AFF;
-  color: #FFF !important;
+  color: #FFF ;
 }
 
 #navmenu a{
@@ -162,6 +160,7 @@ h1, h2, h3 {
 }
 
 #jumbotron h1 {
+  margin-top: 25px;
   font-size: 2.5em;
 }
 
@@ -192,6 +191,16 @@ h1, h2, h3 {
   border: 0;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
+
+#partners>.container>* {
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+#start .btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #FFF;
+}
 /* / INTESTAZIONE */
 
 /* CORPO PRINCIPALE */
@@ -199,9 +208,10 @@ h1, h2, h3 {
   color: #75809A;
 }
 
-#deploy ul.nstd-cnt {
+#deploy ul.tab-list {
   border-left: 1px solid #ccc;
-  padding-left: 30px;
+  padding: 20px 0 20px 20px;
+  margin-bottom: 20px;
 }
 
 #regions ul {
@@ -210,6 +220,11 @@ h1, h2, h3 {
   padding-bottom: 10px;
   font-weight: bold;
 }
+
+#regions a {
+  color: #00D5D1;
+}
+
 #regions ul:not(:last-child) {
   border-bottom: 1px solid #FFF;
 }
@@ -224,8 +239,9 @@ h1, h2, h3 {
 /* / CORPO PRINCIPALE */
 
 /* FOOTER */
+
 #footer a {
-  color: #A6ADBD;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 #footer .txt-opc {
@@ -241,6 +257,7 @@ h1, h2, h3 {
   text-decoration: none;
   opacity: 1;
 }
+
 /* / FOOTER */
 
 /* MEDIAQUERY */
