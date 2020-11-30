@@ -65,7 +65,6 @@ h1, h2, h3 {
 .txt-wht {
   color: #FFF !important;
 }
-
 /* / COLORS (Background & Text) */
 
 /* SPACES (Margin & Padding) */
@@ -167,10 +166,10 @@ h1, h2, h3 {
   height: 25px;
 }
 
-#navmenu .btn{
+#navmenu li .btn{
   border-color: #006AFF;
   margin-top: -4px;
-  color: #006AFF;
+  color: #508CE6;
 }
 
 #navmenu .btn:hover{
@@ -203,6 +202,10 @@ h1, h2, h3 {
 
 #jumbotron h2, h3 {
   font-size: 1.4em;
+}
+
+#jumbotron h3 {
+  color: #508CE6;
 }
 
 #jumbotron .subscript {
