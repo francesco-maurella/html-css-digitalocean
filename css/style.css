@@ -217,6 +217,10 @@ h1, h2, h3, h4 {
   background-color: #006AFF;
 }
 
+#subscript form>.btn:first-of-type:hover{
+  color: #FFF;
+}
+
 #subscript .google-btn{
   background: url('../img/00-google.png') no-repeat 10px 8px;
   background-size: 20px;
@@ -268,7 +272,7 @@ h1, h2, h3, h4 {
   color: rgba(255, 255, 255, 0.6);
 }
 
-#footer, #bot a:hover {
+#footer a:hover, #bot a:hover {
   color: #FFF;
 }
 
